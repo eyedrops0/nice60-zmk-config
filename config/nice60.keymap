@@ -16,6 +16,10 @@
     quick_tap_ms = <200>;
 };
 
+&kscan0 {
+    debounce-period = <10>;
+};
+
 / {
 	keymap {
 		compatible = "zmk,keymap";
